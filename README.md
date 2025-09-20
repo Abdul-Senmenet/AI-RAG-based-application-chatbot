@@ -29,6 +29,10 @@ A smart AI chatbot that can answer questions about research papers using Retriev
 
 **Try the app here**: [https://ai-rag-based-application-chatbot-production-3ea5.up.railway.app](https://ai-rag-based-application-chatbot-production-3ea5.up.railway.app)
 
+**Screenshot of the App**
+<img width="2159" height="1246" alt="image" src="https://github.com/user-attachments/assets/09461bf7-8479-4642-aa48-e7c6368bc330" />
+
+
 ## 🛠️ Tech Stack
 
 - **Backend**: Flask, LangChain, LangGraph
