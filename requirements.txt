@@ -1,12 +1,11 @@
 flask
 flask-cors
 python-dotenv
-langchain==0.0.350
-langchain-community==0.0.8
-langchain-openai==0.0.2
-langgraph==0.0.52
-chromadb==0.4.24
+langchain
+langchain-openai
+langchain-community
+langgraph
+chromadb
 pypdf
 openai
 gunicorn
-tiktoken
