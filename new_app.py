@@ -7,7 +7,7 @@ from typing import TypedDict, Sequence
 from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, ToolMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 from langchain_core.tools import tool
 
@@ -562,3 +562,4 @@ if __name__ == '__main__':
     print("Chat interface will be available at: http://localhost:5000")
     print("API endpoint available at: http://localhost:5000/ask")
     app.run(debug=True, host='0.0.0.0', port=5000)
+
