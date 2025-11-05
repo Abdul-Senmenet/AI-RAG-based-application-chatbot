@@ -4,8 +4,10 @@ python-dotenv
 langchain
 langchain-openai
 langchain-community
+langchain-text-splitters
 langgraph
 chromadb
 pypdf
 openai
 gunicorn
+
